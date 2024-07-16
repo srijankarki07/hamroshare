@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -104,4 +104,46 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+/* styles/globals.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.stock-list {
+  flex: 1;
+}
+
+.stock-item {
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.stock-chart {
+  flex: 1;
+}
+
+.stock-details {
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+
+/* Add more styles as needed */

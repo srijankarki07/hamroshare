@@ -1,0 +1,45 @@
+.stock-list {
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stock-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stock-table th,
+.stock-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.stock-table th {
+  background-color: #f8f8f8;
+  color: #333;
+  cursor: pointer; /* Indicate clickable header */
+}
+
+.stock-table th:hover {
+  background-color: #e0e0e0;
+}
+
+.stock-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.stock-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.stock-table .negative {
+  color: #ff4d4d; /* Light red for negative change */
+}
+
+.stock-table .positive {
+  color: #4caf50; /* Green for positive change */
+}
