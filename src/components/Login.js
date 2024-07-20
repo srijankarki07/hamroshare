@@ -1,5 +1,5 @@
 import { signIn } from "next-auth/react";
-import "@/components/Homepage/Homepage.css";
+import "../components/Homepage/Homepage.css";
 const Login = () => {
   return (
     <div
