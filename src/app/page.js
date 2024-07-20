@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
-import HomePage from "@/components/Homepage/Homepage";
-import Login from "@/components/Login";
+import HomePage from "../components/Homepage/Homepage";
+import Login from "../components/Login";
 import { useSession, signOut } from "next-auth/react";
 import "./button.css";
 
